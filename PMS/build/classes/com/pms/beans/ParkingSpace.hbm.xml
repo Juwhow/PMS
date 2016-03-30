@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+    <class name="com.wuyebao.beans.ParkingSpace" table="parkingspace" >
+         <id name="parkingSpace_id">
+              <generator class="native"></generator>
+         </id>
+         
+          <property name="owner_id"></property>
+          
+          <property name="community_id"></property>
+          
+          <property name="price"></property>
+          
+          <property name="state"></property>
+         
+    </class>
+
+
+</hibernate-mapping>
